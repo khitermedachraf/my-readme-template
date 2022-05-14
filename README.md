@@ -47,11 +47,21 @@ cd Awesome-books-ES6.git
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites ⏮
-
+- A web browser like Google Chrome
 - IDE to edit and run the code (We use Visual Studio Code 🔥).
 - Git to versionning your work.
 
+You can check if Git is installed by running the following command in the terminal.
+```
+git --version
+```
+Likewise for Node.js and npm for package installation.
+```
+node --version && npm --version
+```
+
 ### Install 💻
+
 ```
 npm install --save-dev hint@6.x
 ```
@@ -60,6 +70,10 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 ```
 ```
 npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
+ - For the **node modules** and **Packages.json** dependencies use:
+ ```
+npm install
 ```
 
 ### Usage 🎯
@@ -73,6 +87,11 @@ npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-i
 - run: ```npx hint .```
 - run: ```npx stylelint "**/*.{css,scss}"```
 - run: ```npx eslint .```
+
+### Deployment 🧿
+
+This app is deployed in the GitHub Pages for easy viewing upon merged on the main branch.
+Please find the link in the Live Demo section.
 
 ## Authors 👥
 
